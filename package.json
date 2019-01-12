@@ -1,0 +1,19 @@
+{
+    "name": "toucan",
+    "version": "1.0.0",
+    "description": "Create a docker-compose.yml file that will start your Wordpress blog and a separate MySQL instance with a volume mounted for data persistence.",
+    "scripts": {
+      "start": "./scripts/start.sh",
+      "wp": "./scripts/updateWordpressImage.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ugarz/compose-press.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Ugarz/compose-press/issues"
+    },
+    "homepage": "https://github.com/Ugarz/compose-press#readme"
+  }
